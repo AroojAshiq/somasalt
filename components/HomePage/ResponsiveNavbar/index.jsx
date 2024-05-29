@@ -9,6 +9,7 @@ export default function ResponsiveNavbar() {
         <li>About</li>
         <li>Service</li>
         <li> Contact Us</li>
+       
       </ul>
       <div className={styles.miniBar_icons}>
         <p className={styles.miniBar_icons_para}>

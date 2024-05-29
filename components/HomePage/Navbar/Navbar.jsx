@@ -7,11 +7,11 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
-  const values = ["Home", "About", "Service", "Contact Us"];
+  const values = ["Home", "About", "Service", "Contact Us", "Dashboard"];
   return (
     <div className={styles.navbar}>
       <h1 className={styles.navbar_navbarHeading}>
-        <Link href="/dashboard">Somasalt</Link>
+        <Link href="/">Somasalt</Link>
       </h1>
       <div className={show ? styles.miniNav : styles.hide}>
         <ResponsiveNavbar />
